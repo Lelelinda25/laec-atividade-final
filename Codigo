@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfólio - Leticia Souza</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+  <!-- Cabeçalho 24/10 -->
+  <header class="bg-white shadow-md sticky top-0 z-10">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-pink-600">Leticia Maria</h1>
+      <nav class="space-x-6">
+        <a href="#sobre" class="hover:text-pink-600">Sobre</a>
+        <a href="#habilidades" class="hover:text-pink-600">Habilidades</a>
+        <a href="#formacao" class="hover:text-pink-600">Formação</a>
+        <a href="#projetos" class="hover:text-pink-600">Projetos</a>
+        <a href="#contato" class="hover:text-pink-600">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Seção Sobre 27/10-->
+  <section id="sobre" class="max-w-6xl mx-auto px-6 py-16 flex flex-col md:flex-row items-center gap-8">
+    <img src="437a9949-568d-42a0-8e17-929fe50492bc.jpg" alt="foto de perfil" class="rounded-full shadow-md w-48 h-48 object-cover">
+    <div>
+      <h2 class="text-3xl font-bold text-pink-600 mb-4">Sobre mim</h2>
+      <p class="text-lg leading-relaxed">
+        Olá! meu nome é Leticia Maria, tenho 15 anos, sou estudante do instituto federal de Mato Grosso do Sul, no urso tecnico de informática
+        Futuramente tenho interesse em cursar medicina!
+        Busco sempre aprimorar minhas habilidades e estudar cada vez mais.
+      </p>
+    </div>
+  </section>
+
+  <!-- Habilidades 30/10-->
+  <section id="habilidades" class="bg-pink-50 py-16">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-3xl font-bold text-pink-600 mb-6">Habilidades</h2>
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="bg-white p-6 rounded-xl shadow text-center">
+          <h3 class="font-semibold text-lg mb-2">HTML & CSS</h3>
+          <p>Domínio básico.</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow text-center">
+          <h3 class="font-semibold text-lg mb-2">Síntese Intuitiva</h3>
+          <p>juntar ideias diferentes de forma natural.</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow text-center">
+          <h3 class="font-semibold text-lg mb-2">Escrever</h3>
+          <p>Escrevo bem .</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow text-center">
+          <h3 class="font-semibold text-lg mb-2">Comunicação</h3>
+          <p>Boa escrita, escuta ativa e trabalho em equipe.</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow text-center">
+          <h3 class="font-semibold text-lg mb-2">Organização</h3>
+          <p>Planejamento e gestão eficiente de tarefas e prazos.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Formação e Experiências 4/11-->
+  <section id="formacao" class="max-w-6xl mx-auto px-6 py-16">
+    <h2 class="text-3xl font-bold text-pink-600 mb-6">Formação e Experiências</h2>
+    <ul class="space-y-4">
+      <li class="bg-white p-6 rounded-xl shadow">
+        <h3 class="font-semibold text-lg">Cursando: informática - IFMS</h3>
+        <p class="text-gray-600">começo do curso em 2025.</p>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Projetos 6/11-->
+  <section id="projetos" class="bg-pink-50 py-16">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-3xl font-bold text-pink-600 mb-6">Projetos</h2>
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-white p-6 rounded-xl shadow">
+          <h3 class="font-semibold text-xl mb-2">Projeto 1 – Calculadora de Bhaskara</h3>
+          <p class="mb-4">Calculadora que permite calcular Bhaskara</p>        </div>
+        <div class="bg-white p-6 rounded-xl shadow">
+          <h3 class="font-semibold text-xl mb-2">Projeto 2 – Youtube music</h3>
+          <p class="mb-4">Criaçao da pagina inicial do app music.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contato 8/11-->
+  <section id="contato" class="max-w-6xl mx-auto px-6 py-16 text-center">
+    <h2 class="text-3xl font-bold text-pink-600 mb-4">Contato</h2>
+    <p class="text-lg mb-6">Entre em contato comigo através das redes abaixo:</p>
+    <div class="flex justify-center gap-8 text-pink-600 text-lg">
+      <a href="leticia.souza10@estudante.ifms.edu.br" class="hover:underline">E-mail</a>
+    </div>
+  </section>
+
+  <!-- Rodapé 8/11-->
+  <footer class="bg-gray-900 text-white text-center py-4">
+    <p>© 2025 Leticia Souza. Obrigada!.</p>
+  </footer>
+</body>
+</html>
